@@ -1,4 +1,4 @@
-# FHRCNN
+# FSRCNN
 Fast High Resolution Convolution Neural Network
 
 - This repository is the implementation from scratch of the research paper "Accelerating the Super-Resolution
