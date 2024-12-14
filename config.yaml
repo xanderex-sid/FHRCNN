@@ -1,0 +1,16 @@
+data_path: "/content/DIV2K_train_HR/DIV2K_train_HR"
+batch_size: 16
+val_batch_size: 16
+num_workers: 4
+hr_img_size: [96, 96]  # HR image crop size
+lr_img_size: [24, 24]  # LR image size after downsampling
+color_channels: 3
+downsample_mode: 3  # 3 for Image.BICUBIC in PIL
+
+model_d: 56
+model_s: 12
+model_m: 4
+
+lr_init: 0.001
+epochs: 100
+weights_fn: "best_fsrcnn_model.pth"
